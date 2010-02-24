@@ -3,6 +3,8 @@ require 'spec/expectations'
 
 # Webrat
 require 'webrat'
+require 'rubygems'
+gem 'mechanize', '= 0.9.0'
 
 require 'test/unit/assertions'
 World(Test::Unit::Assertions)
